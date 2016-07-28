@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Visualiseur</class>
+ <widget class="QWidget" name="Visualiseur">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>965</width>
+    <height>596</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="MinimumExpanding" vsizetype="MinimumExpanding">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout" columnstretch="1,0,0">
+   <property name="spacing">
+    <number>0</number>
+   </property>
+   <item row="2" column="2">
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QLabel" name="label">
+       <property name="styleSheet">
+        <string notr="true">font: 52 8pt &quot;Ubuntu&quot;;</string>
+       </property>
+       <property name="text">
+        <string>position:</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="labelPos">
+       <property name="styleSheet">
+        <string notr="true">font: 52 8pt &quot;Ubuntu&quot;;
+</string>
+       </property>
+       <property name="text">
+        <string>pos</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item row="2" column="1">
+    <spacer name="horizontalSpacer">
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>40</width>
+       <height>20</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item row="1" column="0">
+    <layout class="QHBoxLayout" name="horizontalLayout_2">
+     <property name="spacing">
+      <number>0</number>
+     </property>
+     <item>
+      <layout class="QVBoxLayout" name="verticalLayout_3">
+       <property name="spacing">
+        <number>0</number>
+       </property>
+       <item>
+        <widget class="QCheckBox" name="checkBoxPPVoisin">
+         <property name="styleSheet">
+          <string notr="true">font: 52 8pt &quot;Ubuntu&quot;;</string>
+         </property>
+         <property name="text">
+          <string>Plus Proche Voisin</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="checkBoxImmediats">
+         <property name="styleSheet">
+          <string notr="true">font: 52 8pt &quot;Ubuntu&quot;;</string>
+         </property>
+         <property name="text">
+          <string>Voisins Immediats</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QVBoxLayout" name="verticalLayout">
+       <property name="spacing">
+        <number>0</number>
+       </property>
+       <item>
+        <widget class="QCheckBox" name="checkBoxTriangles">
+         <property name="styleSheet">
+          <string notr="true">font: 52 8pt &quot;Ubuntu&quot;;</string>
+         </property>
+         <property name="text">
+          <string>Triangulation</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="checkBoxVoronoi">
+         <property name="styleSheet">
+          <string notr="true">font: 52 8pt &quot;Ubuntu&quot;;</string>
+         </property>
+         <property name="text">
+          <string>Diagramme Voronoi</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QVBoxLayout" name="verticalLayout_2">
+       <property name="spacing">
+        <number>0</number>
+       </property>
+       <item>
+        <widget class="QCheckBox" name="checkBoxSwap">
+         <property name="styleSheet">
+          <string notr="true">font: 52 8pt &quot;Ubuntu&quot;;</string>
+         </property>
+         <property name="text">
+          <string>Verifier Swap</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QVBoxLayout" name="verticalLayout_5">
+       <item>
+        <widget class="QCheckBox" name="checkBoxCentres">
+         <property name="styleSheet">
+          <string notr="true">font: 52 8pt &quot;Ubuntu&quot;;
+</string>
+         </property>
+         <property name="text">
+          <string>Indices Triangles</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="checkBoxSommets">
+         <property name="styleSheet">
+          <string notr="true">font: 52 8pt &quot;Ubuntu&quot;;</string>
+         </property>
+         <property name="text">
+          <string>Indices sommets</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </item>
+   <item row="0" column="0">
+    <spacer name="verticalSpacer">
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>20</width>
+       <height>40</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item row="0" column="2">
+    <spacer name="verticalSpacer_2">
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>20</width>
+       <height>40</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item row="2" column="0">
+    <layout class="QHBoxLayout" name="horizontalLayout_3">
+     <item>
+      <widget class="QLabel" name="label_2">
+       <property name="styleSheet">
+        <string notr="true">font: 52 8pt &quot;Ubuntu&quot;;</string>
+       </property>
+       <property name="text">
+        <string>Triangles modifiés par swap</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="lineEditPileSwap"/>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
